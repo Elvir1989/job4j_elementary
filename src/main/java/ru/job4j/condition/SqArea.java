@@ -2,10 +2,11 @@ package ru.job4j.condition;
 
 public class SqArea {
 
+    @SuppressWarnings("checkstyle:LocalVariableName")
     public static double square(double p, double k) {
         double h = p / (2 * (k + 1));
-        double L = h * k;
-        double rsl = L * h;
+        double l = h * k;
+        double rsl = l * h;
         return rsl;
     }
 
