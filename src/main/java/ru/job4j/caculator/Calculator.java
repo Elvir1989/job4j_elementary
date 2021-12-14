@@ -10,11 +10,11 @@ public class Calculator {
         int six = 6;
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
-        int foutTimeTwo = four * two;
+        int fourTimeTwo = four * two;
         System.out.println(onePlusTwo);
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
-        System.out.println(foutTimeTwo);
+        System.out.println(fourTimeTwo);
 
     }
 }
