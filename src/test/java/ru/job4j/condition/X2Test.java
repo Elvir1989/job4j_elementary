@@ -85,6 +85,4 @@ public class X2Test {
         /* сравнение полученного значения с ожидаемым */
         Assert.assertEquals(expected, rsl);
     }
-
-
 }
