@@ -12,4 +12,31 @@ public class MaxTest {
         int expected = 2;
         Assert.assertEquals(result, expected);
     }
+
+    @Test
+    public void whenMaxFirstToSecondThen() {
+        int left = 5;
+        int right = 3;
+        int result = Max.max(left, right);
+        int expected = 5;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void whenMaxSecondToFirstThen() {
+        int left = 2;
+        int right = 10;
+        int result = Max.max(left, right);
+        int expected = 10;
+        Assert.assertEquals(result, expected);
+    }
+
+    @Test
+    public void whenFirstEqualsSecondThen() {
+        int left = 5;
+        int right = 5;
+        int result = Max.max(left, right);
+        int expected = 5;
+        Assert.assertEquals(result, expected);
+    }
 }
