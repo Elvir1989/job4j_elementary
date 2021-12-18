@@ -20,7 +20,6 @@ public class DummyBotTest {
         Assert.assertEquals(expected, result);
     }
 
-
     @Test
     public void whenUnknownBot() {
         String in = "Сколько будет 2 + 2?";
