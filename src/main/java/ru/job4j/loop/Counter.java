@@ -8,10 +8,4 @@ public class Counter {
         }
         return sum;
     }
-
-    public static void main(String[] args) {
-        System.out.println(Counter.sum(0, 10));
-        System.out.println(Counter.sum(3, 8));
-        System.out.println(Counter.sum(1, 1));
-    }
 }
