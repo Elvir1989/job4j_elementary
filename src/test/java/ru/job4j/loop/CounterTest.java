@@ -12,4 +12,14 @@ public class CounterTest {
         int expected = 30;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenSumNumbersFromTreeToEightThenThirtyTree() {
+        int start = 3;
+        int finish = 8;
+        int result = Counter.sum(start, finish);
+        int expected = 33;
+        Assert.assertEquals(expected, result);
+    }
+
 }
