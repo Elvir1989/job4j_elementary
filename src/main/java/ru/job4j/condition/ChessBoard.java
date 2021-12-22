@@ -10,7 +10,6 @@ public class ChessBoard {
             if (xAbs == yAbs) {
                 rsl = xAbs;
             }
-
         }
         return rsl;
     }
