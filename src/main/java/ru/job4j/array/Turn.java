@@ -4,8 +4,7 @@ public class Turn {
     public static int[] back(int[] array) {
         for (int i = 0; i < array.length / 2; i++) {
             int temp = array[i];
-            int temp2 = array[array.length - i - 1];
-            array[i] = temp2;
+            array[i] = array[array.length - i - 1];
             array[array.length - i - 1] = temp;
         }
         return array;
