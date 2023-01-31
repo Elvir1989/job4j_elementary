@@ -13,6 +13,7 @@ public class SwitchArrayTest {
         int dest = input.length - 1;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {4, 2, 3, 1};
+
         Assert.assertArrayEquals(expected, result);
     }
 
