@@ -1,6 +1,7 @@
 package ru.job4j.array;
 
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SwitchArrayTest {
@@ -23,7 +24,7 @@ public class SwitchArrayTest {
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {3, 2, 1, 4, 6};
         assertThat(result).containsExactly(expected);
-        }
+    }
 
     @Test
     public void whenSwapEndToMiddle() {
