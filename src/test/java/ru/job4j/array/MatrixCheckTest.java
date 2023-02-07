@@ -43,9 +43,9 @@ public class MatrixCheckTest {
     @Test
     public void whenFalseMonoVertical() {
         char[][] input = {
-                {' ', 'X', ' '},
-                {' ', 'X', ' '},
                 {' ', ' ', ' '},
+                {' ', 'X', ' '},
+                {' ', 'X', ' '},
         };
         int column = 1;
         boolean result = MatrixCheck.monoVertical(input, column);
